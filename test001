@@ -1,0 +1,8 @@
+import os
+import sys
+from distutils.sysconfig import get_python_lib
+  
+from setuptools import setup
+  
+# This check and everything above must remain compatible with Python 2.7.
+if CURRENT_PYTHON < REQUIRED_PYTHON
